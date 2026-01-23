@@ -98,7 +98,7 @@ export default function Home() {
         </div>
 
         {/* Code Terminal on the right */}
-        <div className="hidden lg:block">
+        <div className="w-full lg:w-auto mt-8 lg:mt-0">
           <CodeTerminal />
         </div>
       </section>

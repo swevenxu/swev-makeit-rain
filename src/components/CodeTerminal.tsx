@@ -28,7 +28,7 @@ const CodeTerminal = () => {
   }, [visibleLines]);
 
   return (
-    <div className="relative w-[450px]">
+    <div className="relative w-full lg:w-[450px]">
       {/* Terminal window */}
       <div className="bg-[#0d0d1a] border border-white/10 rounded-lg overflow-hidden shadow-2xl">
         {/* Title bar */}
