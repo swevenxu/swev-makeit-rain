@@ -1,9 +1,7 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import FloatingCodeSyntax from "./FloatingSquares";
 import CodeTerminal from "./CodeTerminal";
-import MouseGlow from "./MouseGlow";
 import AnimatedText from "./AnimatedText";
 
 const HeroSection = () => {
@@ -69,11 +67,6 @@ const HeroSection = () => {
           "linear-gradient(rgba(127, 124, 255, 0.05), rgba(79, 77, 232, 0.05), transparent)",
       }}
     >
-      {/* Mouse Glow Effect */}
-      <MouseGlow />
-
-      {/* Floating Code Syntax Background */}
-      <FloatingCodeSyntax />
 
       {/* Hero Content */}
       <motion.div
